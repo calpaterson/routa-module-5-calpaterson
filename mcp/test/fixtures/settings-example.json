@@ -1,0 +1,4 @@
+{
+  "access": [{ "group": "example-group", "apps": ["example-app"] }],
+  "policies": [{ "id": "session-length-hours", "label": "Session length in hours", "value": 8 }]
+}
