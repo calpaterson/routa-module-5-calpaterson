@@ -1,4 +1,5 @@
-// The token check: who may do what. The platform's API doesn't enforce scope, so this is the only place that does.
+// The token check: who may do what. The platform's API doesn't enforce scope,
+// so this is the only place that does.
 import { whoami } from "./platform.ts";
 
 export async function requireToken(): Promise<void> {
